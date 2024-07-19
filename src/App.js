@@ -23,7 +23,7 @@ function App() {
 
 
   return (
-    <div style={{padding : 20}} className="App">
+    <div style={{padding : 10}} className="App">
           <h1>{count}</h1>
           <button onClick={()=> dispatch(UP_EVT)}>UP</button>
           <button onClick={() => dispatch(DOWM_EVT)}>DOWN</button>
